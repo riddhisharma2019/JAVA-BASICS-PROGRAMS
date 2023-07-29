@@ -1,0 +1,23 @@
+package org.example.javaPrograms;
+
+public class Swap {
+
+    public static void main(String[] args){
+
+        int a=10;
+        int b=20;
+
+        int temp=a;
+        a=b;
+        b=temp;
+
+        System.out.println("swapping of number a is"+ a);
+        System.out.println("swapping of number b is"+ b);
+
+
+    }
+}
+
+// a=a+b;
+//b=a-b;
+//a=a-b;
