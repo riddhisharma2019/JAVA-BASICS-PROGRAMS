@@ -1,0 +1,25 @@
+package org.example.javaPrograms;
+
+public class ReverseNumber {
+
+    public static void main(String[] args){
+
+        int numb= 5678;
+        int rev=0;
+
+            while(numb!=0) {
+
+                int digit = numb % 10;
+                rev = rev * 10 + digit;
+
+                numb = numb / 10;
+            }
+            System.out.println("reverse of number is" + rev);
+
+
+        }
+    }
+
+
+
+
